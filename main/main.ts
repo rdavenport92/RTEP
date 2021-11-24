@@ -1,5 +1,5 @@
 import { app, BrowserWindow, App } from 'electron';
-import * as electronIsDev from 'electron-is-dev';
+import electronIsDev from 'electron-is-dev';
 import * as path from 'path';
 import * as url from 'url';
 
