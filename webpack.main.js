@@ -4,7 +4,7 @@ module.exports = {
   context: __dirname,
   mode: 'development',
   target: 'electron-main',
-  entry: './electron/main.ts',
+  entry: './main/main.ts',
   resolve: {
     extensions: ['.ts', '.js']
   },

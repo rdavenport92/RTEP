@@ -68,5 +68,5 @@
     "baseUrl": "./src"
   },
   "exclude": ["./node_modules", "**/*.spec.ts", "**/*.spec.tsx"],
-  "include": ["electron/*", "./src/*"]
+  "include": ["main/*", "./src/*"]
 }
