@@ -1,0 +1,13 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "python.defaultInterpreterPath": "engine/.venv/bin/python",
+  "python.linting.flake8Enabled": true,
+  "files.exclude": {
+    "engine/.venv": true,
+    "engine/.pytest_cache": true,
+    "**/__pycache__": true,
+    "**/__init__.py": true
+  },
+  "python.linting.enabled": true
+}

@@ -1,0 +1,11 @@
+{
+  "python.defaultInterpreterPath": ".venv/bin/python",
+  "python.linting.flake8Enabled": true,
+  "files.exclude": {
+    ".venv": true,
+    ".pytest_cache": true,
+    "**/__pycache__": true,
+    "**/__init__.py": true
+  },
+  "python.linting.enabled": true
+}
