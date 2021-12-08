@@ -1,3 +1,8 @@
 node_modules
 dist
 release
+.venv
+build
+__pycache__
+.pytest_cache
+settings.json
