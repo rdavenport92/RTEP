@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "engine"
+version = "0.0.0"
+description = ""
+authors = ["Ricky Davenport <ricky.davenport@wwt.com>"]
+
+[tool.poetry.scripts]
+main = 'engine.main:main'
+
+[tool.poetry.dependencies]
+python = "3.8"
+fastapi = "^0.70.0"
+uvicorn = "^0.15.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pyinstaller = "^4.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
