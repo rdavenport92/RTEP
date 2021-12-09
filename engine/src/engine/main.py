@@ -16,7 +16,7 @@ app.add_middleware(
 
 @app.get('/')
 @app.head('/')
-async def heartbeat():
+def heartbeat():
     return 'Engine is up and running!'
 
 
